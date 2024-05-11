@@ -148,7 +148,6 @@ function CheckAntiCheatBypass()
             end
         end
     end
-    for i,v in 
 task.spawn(function()
     while true and task.wait() do
         if AllowRunService == true then
