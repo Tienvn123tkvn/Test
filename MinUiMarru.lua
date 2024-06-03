@@ -1,13 +1,13 @@
 local a = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\10"
 local b = "\66\97\99\107\117\112\45\83\99\114\105\112\116\47\109\97\105\110\47\83\101\118\101\114\10"
 local a = a .. b
-loadstring(game:HttpGet(("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\97\99\107\117\112\45\83\99\114\105\112\116\47\109\97\105\110\47\83\101\118\101\114\10")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tienvn123tkvn/Ziner-hub/main/zinerhubontop.txt")))()
 loadstring(game:HttpGet(('\104\116\116\112\115\58\47\47\99\100\110\46\116\105\101\110\116\105\110\121\46\115\112\97\99\101\47\97\112\105\46\108\117\97\10')))()
 warn(_G.Print)
 ---------
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then 
 	setfpscap(999)
-	_G.Color = Color3.fromRGB(255, 242, 3)
+	_G.Color = Color3.fromRGB(0, 0, 255)
 	_G.Settings = {
         BringMob = true,
 		Auto_Farm_Level = false,
@@ -303,7 +303,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 		end
 	end
 
-	_G.Color = Color3.fromRGB(255, 242,3)
+	_G.Color = Color3.fromRGB(0, 255,0)
 	local UserInputService = game:GetService("UserInputService")
 	local VirtualInputManager = game:GetService("VirtualInputManager")
 	local TweenService = game:GetService("TweenService")
@@ -779,7 +779,7 @@ end)
 		Title.Position = UDim2.new(0, 45, 0, 10)
 		Title.Size = UDim2.new(0, 483, 0, 31)
 		Title.Font = Enum.Font.FredokaOne
-		Title.Text = "Ziner-hub"
+		Title.Text = "MinGaming"
 		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Title.TextSize = 17.000
 		Title.TextWrapped = true
@@ -2119,7 +2119,7 @@ end)
 					Text_3.ZIndex = 16
 					Text_3.Font = Enum.Font.GothamBold
 					Text_3.Text = Name
-					Text_3.TextColor3 = Color3.fromRGB(255, 242,3)
+					Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 					Text_3.TextSize = 12.000
 					Text_3.TextXAlignment = Enum.TextXAlignment.Left
 	
@@ -2173,7 +2173,7 @@ end)
 	
 					v.Name = "v"
 					v.Parent = MainDropDown_2
-					v.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					v.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					v.BackgroundTransparency = 1.000
 					v.BorderSizePixel = 0
 					v.Size = UDim2.new(1, 0, 1, 0)
@@ -2181,7 +2181,7 @@ end)
 					v.AutoButtonColor = false
 					v.Font = Enum.Font.GothamBold
 					v.Text = ""
-					v.TextColor3 = Color3.fromRGB(255, 242,3)
+					v.TextColor3 = Color3.fromRGB(255, 255, 255)
 					v.TextSize = 12.000
 					function getpro()
 						if default then
@@ -2195,13 +2195,13 @@ end)
 	
 					Text_2.Name = "Text"
 					Text_2.Parent = MainDropDown_2
-					Text_2.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					Text_2.BackgroundTransparency = 1.000
 					Text_2.Size = UDim2.new(0, 265, 0, 35)
 					Text_2.ZIndex = 16
 					Text_2.Font = Enum.Font.GothamBold
 					Text_2.Text = table.concat(default, ", ")
-					Text_2.TextColor3 = Color3.fromRGB(255, 242,3)
+					Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 					Text_2.TextSize = 13.000
 					Text_2.TextXAlignment = Enum.TextXAlignment.Center
 	
@@ -2216,7 +2216,7 @@ end)
 					Scroll_Items.Name = "Scroll_Items"
 					Scroll_Items.Parent = MainDropDown
 					Scroll_Items.Active = true
-					Scroll_Items.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					Scroll_Items.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					Scroll_Items.BackgroundTransparency = 1.000
 					Scroll_Items.BorderSizePixel = 0
 					Scroll_Items.Position = UDim2.new(0, 0, 0, 35)
@@ -2275,7 +2275,7 @@ end)
 						_5.AutoButtonColor = false
 						_5.Font = Enum.Font.GothamBold
 						_5.Text = Text
-						_5.TextColor3 = Color3.fromRGB(255, 242,3)
+						_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 						_5.TextSize = 12.000
 	
 						local UIStroke96 = Instance.new("UIStroke")
@@ -2319,7 +2319,7 @@ end)
 									TweenService:Create(
 										_5,
 										TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-										{TextColor3 = Color3.fromRGB(255, 242,3)}
+										{TextColor3 = Color3.fromRGB(255, 255, 255)}
 									):Play()
 									for i2, v2 in pairs(DropTable) do
 										if v2 == Text then
@@ -2407,13 +2407,13 @@ end)
 	
 					LabelNameSlider.Name = "LabelNameSlider"
 					LabelNameSlider.Parent = SliderFrame
-					LabelNameSlider.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					LabelNameSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					LabelNameSlider.BackgroundTransparency = 1.000
 					LabelNameSlider.Position = UDim2.new(0.0729926974, 0, 0.0396823473, 0)
 					LabelNameSlider.Size = UDim2.new(0, 182, 0, 25)
 					LabelNameSlider.Font = Enum.Font.GothamBold
 					LabelNameSlider.Text = tostring(text)
-					LabelNameSlider.TextColor3 = Color3.fromRGB(255, 242,3)
+					LabelNameSlider.TextColor3 = Color3.fromRGB(255, 255, 255)
 					LabelNameSlider.TextSize = 11.000
 					LabelNameSlider.TextXAlignment = Enum.TextXAlignment.Left
 	
@@ -2431,7 +2431,7 @@ end)
 					CustomValue.Size = UDim2.new(0, 55, 0, 21)
 					CustomValue.Font = Enum.Font.GothamBold
 					CustomValue.Text = ""
-					CustomValue.TextColor3 = Color3.fromRGB(255, 242,3)
+					CustomValue.TextColor3 = Color3.fromRGB(255, 255, 255)
 					CustomValue.TextSize = 11.000
 	
 					local UIStroke965 = Instance.new("UIStroke")
@@ -2641,26 +2641,26 @@ end)
 			
 					Colorpicker.Name = "Colorpicker"
 					Colorpicker.Parent = SectionContainer
-					Colorpicker.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					Colorpicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					Colorpicker.BackgroundTransparency = 1.000
 					Colorpicker.Position = UDim2.new(0.0895741582, 0, 0.474232763, 0)
 					Colorpicker.Size = UDim2.new(0, 403, 0, 175)
 			
 					ColorpickerTitle.Name = "ColorpickerTitle"
 					ColorpickerTitle.Parent = Colorpicker
-					ColorpickerTitle.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					ColorpickerTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ColorpickerTitle.BackgroundTransparency = 1.000
 					ColorpickerTitle.Position = UDim2.new(0, 5, 0, 0)
 					ColorpickerTitle.Size = UDim2.new(0, 200, 0, 29)
 					ColorpickerTitle.Font = Enum.Font.Gotham
 					ColorpickerTitle.Text = "Colorpicker"
-					ColorpickerTitle.TextColor3 = Color3.fromRGB(255, 242,3)
+					ColorpickerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 					ColorpickerTitle.TextSize = 14.000
 					ColorpickerTitle.TextXAlignment = Enum.TextXAlignment.Left
 			
 					ColorpickerFrameOutline.Name = "ColorpickerFrameOutline"
 					ColorpickerFrameOutline.Parent = ColorpickerTitle
-					ColorpickerFrameOutline.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					ColorpickerFrameOutline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ColorpickerFrameOutline.Position = UDim2.new(-0.00100000005, 0, 0.991999984, 0)
 					ColorpickerFrameOutline.Size = UDim2.new(0, 238, 0, 139)
 			
@@ -2695,7 +2695,7 @@ end)
 					ColorSelection.Name = "ColorSelection"
 					ColorSelection.Parent = Color
 					ColorSelection.AnchorPoint = Vector2.new(0.5, 0.5)
-					ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					ColorSelection.BackgroundTransparency = 1.000
 					ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
 					ColorSelection.Size = UDim2.new(0, 18, 0, 18)
@@ -2704,7 +2704,7 @@ end)
 			
 					Hue.Name = "Hue"
 					Hue.Parent = ColorpickerFrame
-					Hue.BackgroundColor3 = Color3.fromRGB(255, 242,3)
+					Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					Hue.Position = UDim2.new(0, 171, 0, 10)
 					Hue.Size = UDim2.new(0, 18, 0, 118)
 			
@@ -2813,14 +2813,14 @@ end)
 	
 	function LoadSettings()
 		if readfile and writefile and isfile and isfolder then
-			if not isfolder("ZINER-HUB") then
-				makefolder("ZINER-HUB")
+			if not isfolder("Ziner-hub") then
+				makefolder("Ziner-hub")
 			end
-			if not isfolder("ZINER-HUB/Blox Fruits/") then
-				makefolder("ZINER-HUB/Blox Fruits/")
+			if not isfolder("Min Gaming/Blox Fruits/") then
+				makefolder("Min Gaming/Blox Fruits/")
 			end
-			if not isfile("ZINER-HUB/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
-				writefile("ZINER-HUB/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
+			if not isfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json") then
+				writefile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", game:GetService("HttpService"):JSONEncode(_G.Settings))
 			else
 				local Decode = game:GetService("HttpService"):JSONDecode(readfile("Min Gaming/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"))
 				for i,v in pairs(Decode) do
@@ -4050,7 +4050,7 @@ function GetMaterial(matname)
 		Side = "Left"
 	})
 	CredtSection:AddLabel({
-		Name = "Script Made By ZINER"
+		Name = "Script Made By KAI WIBU"
 	})	
 
 	
@@ -12695,8 +12695,8 @@ MiscSection1:AddButton({
 		kaituncap()
 	end
 })
-FakeDamage("ZINER_HUB_On_Top")
-Vec("<Color=Yellow>ZINER loaded Finished<Color=/>")
+FakeDamage("Min_Gaming_On_Top")
+Vec("<Color=Yellow>ZINER-HUB loaded Finished<Color=/>")
 else
 	game.Players.LocalPlayer:Kick("..")
 end
